@@ -1,0 +1,14 @@
+ csh  (Invokes C-Shell) 
+source /home/install/cshrc (mention the path of the tools) 
+ nclaunch -new&
+
+ ✔ csh 
+✔ source /home/install/cshrc 
+genus -gui
+read_libs /home/install/FOUNDRY/digital/90nm/dig/lib/slow.lib 
+2. read_hdl counter.v 
+3. elaborate 
+--------------------------------------------------
+csh
+source /home/install/cshrc 
+virtuoso &
